@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv() #this will load the virtual env and libraries install in that env
 
 #langsmith tracking
-os.environ['LANGCHAIN_API_KEY']='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'
+os.environ['LANGCHAIN_API_KEY']='Langchain_api_key'
 os.environ['LANGCHAIN_TRACING_V2']='True'
 os.environ['LANGCHAIN_PROJECT']="Q&A Chatbot with Ollama"
 # Loads API keys and configurations for LangSmith tracking (used for debugging and monitoring LangChain applications).
